@@ -1,0 +1,75 @@
+[
+  {
+    "slug": "سندبادنامه",
+    "title": "ابیات به جا مانده از کلیله و دمنه و سندبادنامه",
+    "order": 0,
+    "page_title": "پاره ",
+    "page_count": true,
+    "page_count_lang": "fa",
+    "page_append": true
+  },
+  {
+    "slug": "بحر-متقارب",
+    "title": "ابیات به جا مانده از مثنوی بحر متقارب",
+    "order": 1,
+    "page_title": "پاره ",
+    "page_count": true,
+    "page_count_lang": "fa",
+    "page_append": true
+  },
+  {
+    "slug": "بحر-خفیف",
+    "title": "ابیات به جا مانده از مثنوی بحر خفیف",
+    "order": 2,
+    "page_title": "پاره ",
+    "page_count": true,
+    "page_count_lang": "fa",
+    "page_append": true
+  },
+  {
+    "slug": "بحر-مزج",
+    "title": "ابیات به جا مانده از مثنوی بحر هزج",
+    "order": 3,
+    "page_title": "پاره ",
+    "page_count": true,
+    "page_count_lang": "fa",
+    "page_append": true
+  },
+  {
+    "slug": "دیگر-مثنوی‌ها",
+    "title": "ابیات به جا مانده از دیگر مثنویها",
+    "order": 4,
+    "page_title": "پاره ",
+    "page_count": true,
+    "page_count_lang": "fa",
+    "page_append": true
+  },
+
+  {
+    "slug": "رباعیات",
+    "title": "رباعیات",
+    "order": 5,
+    "page_title": "رباعی ",
+    "page_count": true,
+    "page_count_lang": "fa",
+    "page_append": true
+  },
+  {
+    "slug": "پراکنده",
+    "title": "ابیات پراکنده",
+    "order": 6,
+    "page_title": "شماره ",
+    "page_count": true,
+    "page_count_lang": "fa",
+    "page_append": true
+  },
+  {
+    "slug": "باقیمانده",
+    "title": "قصاید و قطعات",
+    "order": 7,
+    "page_title": "شماره ",
+    "page_count": true,
+    "page_count_lang": "fa",
+    "page_append": true
+  }
+]

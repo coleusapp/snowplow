@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "دیباچه",
+    "title": "دیباچه",
+    "page_title": "بِسم اللهِ الرَّحمنِ الرَّحیم",
+    "order": 0
+  },
+  {
+    "slug": "باب-اول",
+    "title": "باب اول در سیرت پادشاهان",
+    "page_title": "حکایت ",
+    "page_count": true,
+    "page_count_lang": "fa",
+    "order": 1
+  },
+  {
+    "slug": "باب-دوم",
+    "title": "باب دوم در اخلاق درویشان",
+    "page_title": "حکایت ",
+    "page_count": true,
+    "page_count_lang": "fa",
+    "order": 2
+  },
+  {
+    "slug": "باب-سوم",
+    "title": "باب سوم در فضیلت قناعت",
+    "page_title": "حکایت ",
+    "page_count": true,
+    "page_count_lang": "fa",
+    "order": 3
+  },
+  {
+    "slug": "باب-چهارم",
+    "title": "باب چهارم در فواید خاموشی",
+    "page_title": "حکایت ",
+    "page_count": true,
+    "page_count_lang": "fa",
+    "order": 4
+  },
+  {
+    "slug": "باب-پنجم",
+    "title": "باب پنجم در عشق و جوانی",
+    "page_title": "حکایت ",
+    "page_count": true,
+    "page_count_lang": "fa",
+    "order": 5
+  },
+  {
+    "slug": "باب-ششم",
+    "title": "باب ششم در ضعف و پیری",
+    "page_title": "حکایت ",
+    "page_count": true,
+    "page_count_lang": "fa",
+    "order": 6
+  },
+  {
+    "slug": "باب-هفتم",
+    "title": "باب هفتم در تأثیر تربیت",
+    "page_title": "حکایت ",
+    "page_count": true,
+    "page_count_lang": "fa",
+    "order": 7
+  },
+  {
+    "slug": "باب-هشتم",
+    "title": "باب هشتم در آداب صحبت",
+    "page_title": "حکایت ",
+    "page_count": true,
+    "page_count_lang": "fa",
+    "order": 8
+  }
+]

@@ -1,22 +1,22 @@
 [
   {
     "title": "دیوان شمس تبریزی",
-    "slug": "The-Works-of-Shams-of-Tabriz",
+    "slug": "دیوان-شمس-تبریزی",
     "order": 0
   },
   {
     "title": "مثنوی معنوی",
-    "slug": "Spiritual-Couplets",
+    "slug": "مثنوی-معنوی",
     "order": 1
   },
   {
     "title": "فیه ما فیه",
-    "slug": "In-It-What's-in-It",
+    "slug": "فیه-ما-فیه",
     "order": 2
   },
   {
     "title": "مجالس سبعه",
-    "slug": "Seven-Sessions",
+    "slug": "مجالس-سبعه",
     "order": 3
   }
 ]

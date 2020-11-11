@@ -22,12 +22,12 @@
         if (book.length) {
           for (let j in book) {
             let firstPage = await $content(`books/${users[i]['slug']}/${book[j]['slug']}/pages`).where({ order: 0 }).fetch()
-            book[j]['open_book'] = `books/${users[i]['slug']}/${book[j]['slug']}/${(firstPage.length ? firstPage[0].slug : firstPage.slug)}/sh1/output.json`
+            book[j]['open_book'] = `books/${users[i]['slug']}/${book[j]['slug']}/${(firstPage.length ? firstPage[0].slug : firstPage.slug)}/1`
             books.push(book[j])
           }
         } else {
           let firstPage = await $content(`books/${users[i]['slug']}/${book['slug']}/pages`).where({ order: 0 }).fetch()
-          book['open_book'] = `books/${users[i]['slug']}/${book['slug']}/${(firstPage.length ? firstPage[0].slug : firstPage.slug)}/sh1/output.json`
+          book['open_book'] = `books/${users[i]['slug']}/${book['slug']}/${(firstPage.length ? firstPage[0].slug : firstPage.slug)}/1`
           books.push(book)
         }
       }

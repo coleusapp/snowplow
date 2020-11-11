@@ -1,37 +1,37 @@
 [
   {
     "title": "اسرار خودی",
-    "slug": "Asrar-i-Khudi",
+    "slug": "اسرار-خودی",
     "order": 0
   },
   {
     "title": "رموز بیخودی",
-    "slug": "Rumuz-i-Bekhudi",
+    "slug": "رموز-بیخودی",
     "order": 1
   },
   {
     "title": "پیام مشرق",
-    "slug": "Payam-i-Mashriq",
+    "slug": "پیام-مشرق",
     "order": 2
   },
   {
     "title": "زبور عجم",
-    "slug": "Zabur-i-Ajam",
+    "slug": "زبور-عجم",
     "order": 3
   },
   {
     "title": "جاوید نامه",
-    "slug": "Javid-Nama",
+    "slug": "جاوید-نامه",
     "order": 4
   },
   {
     "title": "پس چه باید کرد؟",
-    "slug": "Pas-Cheh-Bayed-Kard-ai-Aqwam-e-Sharq",
+    "slug": "پس-چه-باید-کرد؟",
     "order": 5
   },
   {
     "title": "ارمغان حجاز",
-    "slug": "Armughan-e-Hijaz",
+    "slug": "ارمغان-حجاز",
     "order": 6
   }
 ]

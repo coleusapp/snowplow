@@ -1,6 +1,6 @@
 [
   {
-    "slug": "Makhzan-ol-Asrâr",
+    "slug": "مخزن-الاسرار",
     "title": "مخزن الاسرار",
     "order": 0,
     "page_header": [
@@ -67,7 +67,7 @@
     ]
   },
   {
-    "slug": "Khosrow-o-Shirin",
+    "slug": "خسرو-و-شیرین",
     "title": "خسرو و شیرین",
     "order": 1,
     "page_header": [
@@ -201,7 +201,7 @@
     ]
   },
   {
-    "slug": "Leyli-o-Majnun",
+    "slug": "لیلی-و-مجنون",
     "title": "لیلی و مجنون",
     "order": 2,
     "page_header": [
@@ -254,7 +254,7 @@
     ]
   },
   {
-    "slug": "Haft-Peykar",
+    "slug": "هفت-پیکر",
     "title": "هفت پیکر",
     "order": 3,
     "page_header": [
@@ -313,7 +313,7 @@
     ]
   },
   {
-    "slug": "sharafname",
+    "slug": "شرف-نامه",
     "title": "شرف نامه",
     "order": 4,
     "page_header": [
@@ -383,7 +383,7 @@
     ]
   },
   {
-    "slug": "kheradname",
+    "slug": "خرد-نامه",
     "title": "خرد نامه",
     "order": 5,
     "page_header": [

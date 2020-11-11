@@ -1,12 +1,12 @@
 [
   {
     "title": "سفرنامه",
-    "slug": "Safarnama",
+    "slug": "سفرنامه",
     "order": 0
   },
   {
     "title": "دیوان ناصرخسرو",
-    "slug": "Diwan",
+    "slug": "دیوان-ناصرخسرو",
     "order": 1
   }
 ]

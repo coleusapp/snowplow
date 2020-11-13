@@ -1,8 +1,4 @@
 export default {
-  router: {
-    base: '/snowplow/'
-  },
-
   // Target (https://go.nuxtjs.dev/config-target)
   target: 'static',
 

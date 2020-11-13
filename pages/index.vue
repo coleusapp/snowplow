@@ -12,13 +12,15 @@
 </template>
 
 <script>
-  export default {
-    async asyncData({ $content, params }) {
-      const users = await $content('users').sortBy('order').fetch()
+export default {
+  async asyncData({ $content, params }) {
+    const users = await $content('users')
+      .sortBy('order')
+      .fetch()
 
-      return {
-        users
-      }
+    return {
+      users
     }
   }
+}
 </script>

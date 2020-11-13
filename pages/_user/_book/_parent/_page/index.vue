@@ -12,13 +12,17 @@
 </template>
 
 <script>
-  export default {
-    async asyncData({ $content, params }) {
-      const contents = await $content(`books/${params.user}/${params.book}/${params.parent}/sh${params.page}`).sortBy('order').fetch()
+export default {
+  async asyncData({ $content, params }) {
+    const contents = await $content(
+      `books/${params.user}/${params.book}/${params.parent}/sh${params.page}`
+    )
+      .sortBy('order')
+      .fetch()
 
-      return {
-        contents
-      }
+    return {
+      contents
     }
   }
+}
 </script>

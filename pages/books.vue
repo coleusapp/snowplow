@@ -13,29 +13,45 @@
 </template>
 
 <script>
-  export default {
-    async asyncData({ $content, params }) {
-      const users = await $content('users').sortBy('order').fetch()
-      let books = []
-      for (let i in users) {
-        let book = await $content('books/' + users[i]['slug'] + '/books').sortBy('order').fetch()
-        if (book.length) {
-          for (let j in book) {
-            let firstPage = await $content(`books/${users[i]['slug']}/${book[j]['slug']}/pages`).where({ order: 0 }).fetch()
-            book[j]['open_book'] = `books/${users[i]['slug']}/${book[j]['slug']}/${(firstPage.length ? firstPage[0].slug : firstPage.slug)}/1`
-            books.push(book[j])
-          }
-        } else {
-          let firstPage = await $content(`books/${users[i]['slug']}/${book['slug']}/pages`).where({ order: 0 }).fetch()
-          book['open_book'] = `books/${users[i]['slug']}/${book['slug']}/${(firstPage.length ? firstPage[0].slug : firstPage.slug)}/1`
-          books.push(book)
+export default {
+  async asyncData({ $content, params }) {
+    const users = await $content('users')
+      .sortBy('order')
+      .fetch()
+    const books = []
+    for (const i in users) {
+      const book = await $content('books/' + users[i].slug + '/books')
+        .sortBy('order')
+        .fetch()
+      if (book.length) {
+        for (const j in book) {
+          const firstPage = await $content(
+            `books/${users[i].slug}/${book[j].slug}/pages`
+          )
+            .where({ order: 0 })
+            .fetch()
+          book[j].open_book = `books/${users[i].slug}/${book[j].slug}/${
+            firstPage.length ? firstPage[0].slug : firstPage.slug
+          }/1`
+          books.push(book[j])
         }
-      }
-
-      return {
-        users,
-        books
+      } else {
+        const firstPage = await $content(
+          `books/${users[i].slug}/${book.slug}/pages`
+        )
+          .where({ order: 0 })
+          .fetch()
+        book.open_book = `books/${users[i].slug}/${book.slug}/${
+          firstPage.length ? firstPage[0].slug : firstPage.slug
+        }/1`
+        books.push(book)
       }
     }
+
+    return {
+      users,
+      books
+    }
   }
+}
 </script>

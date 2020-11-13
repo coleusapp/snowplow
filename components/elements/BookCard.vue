@@ -11,18 +11,23 @@
     <meta itemprop="accessMode" content="{textual}" />
     <meta itemprop="accessModeSufficient " content="{textual}" />
     <meta itemprop="inLanguage" content="fa" />
-    <meta itemprop="thumbnailUrl" :content="book.medium" />
+    <meta itemprop="thumbnailUrl" content="/books/default.jpg" />
     <meta property="bookFormat" content="EBook/DAISY3" />
     <meta property="accessMode" content="{textual}" />
     <meta property="accessModeSufficient " content="{textual}" />
     <meta property="inLanguage" content="fa" />
-    <meta property="thumbnailUrl" :content="book.medium" />
-    <img :src="book.medium" class="hidden" property="image" itemprop="image" />
+    <meta property="thumbnailUrl" content="/books/default.jpg" />
+    <img
+      src="/books/default.jpg"
+      class="hidden"
+      property="image"
+      itemprop="image"
+    />
     <client-only>
       <progressive-img
         itemprop="image"
-        :src="book.medium"
-        :placeholder="book.thumbnail"
+        src="/books/default.jpg"
+        placeholder="/books/default.jpg"
         :blur="30"
         :aspect-ratio="1.5"
         class="book-cover"
@@ -33,15 +38,15 @@
         <nuxt-link
           class="hover:text-indigo-500 focus:text-indigo-500 transition-all duration-300 ease-in-out truncate"
           :to="{
-            name: 'username',
-            params: { username: book.book_users[0].user.username }
+            name: 'user',
+            params: { user: user.slug }
           }"
           itemprop="author"
           itemscope
           itemtype="http://schema.org/Person"
           property="author"
           typeof="Person"
-          >{{ book.book_users[0].user.name }}</nuxt-link
+          >{{ user.name }}</nuxt-link
         >
       </div>
       <div
@@ -58,6 +63,10 @@
 <script>
 export default {
   props: {
+    user: {
+      type: Object,
+      default: () => {}
+    },
     book: {
       type: Object,
       default: () => {}

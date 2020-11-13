@@ -21,23 +21,23 @@
             class="bg-white border border-gray-300 flex flex-wrap items-center shadow rounded"
           >
             <div class="w-1/4 -mb-2 p-2">
-              <!-- <img
+              <img
                 class="hidden"
                 itemprop="image"
                 property="image"
-                :src="user.xsmall"
+                src="/users/default.jpg"
                 :alt="`عکس پروفایل ${user.name}`"
               />
               <client-only>
                 <progressive-img
                   class="home-profile"
-                  :src="user.xsmall"
-                  :placeholder="user.thumbnail"
+                  src="/users/default.jpg"
+                  placeholder="/users/default.jpg"
                   :blur="30"
                   :aspect-ratio="1"
                   :alt="`عکس پروفایل ${user.name}`"
                 />
-              </client-only> -->
+              </client-only>
             </div>
             <div class="w-3/4 flex flex-col text-right pr-4">
               <h2 class="font-semibold" itemprop="name" property="name">
@@ -53,7 +53,7 @@
     </template>
     <template v-else>
       <div class="container">
-        <coleus-spinner class="w-8 mx-auto my-4" />
+        <spinner class="w-8 mx-auto my-4" />
       </div>
     </template>
   </container>

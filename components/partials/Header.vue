@@ -6,9 +6,9 @@
           <coleus-nav-list-link :to="{ name: 'index' }" class="ml-8"
             >شاعران</coleus-nav-list-link
           >
-          <coleus-nav-list-link :to="{ name: 'books' }" class="ml-8"
+          <!-- <coleus-nav-list-link :to="{ name: 'books' }" class="ml-8"
             >کتاب‌ها</coleus-nav-list-link
-          >
+          > -->
         </ul>
         <coleus-logo-link
           class="flex items-center w-full lg:w-1/5 justify-center lg:justify-end"
@@ -22,14 +22,14 @@
         <coleus-nav-mobile-menu-link @click.prevent="closeSearch()"
           >فهرست</coleus-nav-mobile-menu-link
         >
-        <coleus-nav-mobile-link
+        <!-- <coleus-nav-mobile-link
           :to="{ name: 'books' }"
           route-name="books"
           :search-open="searchOpen"
           svg="coleus-svg-book"
           @click.native="closeSearch()"
           >کتاب‌ها</coleus-nav-mobile-link
-        >
+        > -->
         <coleus-nav-mobile-link
           :to="{ name: 'index' }"
           route-name="index"

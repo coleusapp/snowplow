@@ -1,10 +1,9 @@
 <template>
   <span>
     <template v-if="userUsername">
-      <nuxt-link
-        :to="{ name: 'username', params: { username: userUsername } }"
-        >{{ userName }}</nuxt-link
-      >
+      <nuxt-link :to="{ name: 'user', params: { user: userUsername } }">{{
+        userName
+      }}</nuxt-link>
     </template>
     <template v-else>{{ userName }}</template>
     <template v-if="bookTitle"> ← {{ bookTitle }} </template>

@@ -1,0 +1,1 @@
+window.__NUXT__={staticAssetsBase:"\u002F_nuxt\u002Fstatic\u002F1605320192",layout:"default",error:null,serverRendered:true,routePath:"\u002Fمحمداقبال\u002Fاسرار-خودی\u002Fاسرار-خودی\u002F1",config:{appLocale:"fa",baseUrl:"http:\u002F\u002Flocalhost:3000",content:{dbHash:"b760d3c6"}}};

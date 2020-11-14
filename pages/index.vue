@@ -25,14 +25,14 @@
                 class="hidden"
                 itemprop="image"
                 property="image"
-                src="/users/default.jpg"
+                :src="`/users/240x240/${user.slug}.jpg`"
                 :alt="`عکس پروفایل ${user.name}`"
               />
               <client-only>
                 <progressive-img
                   class="home-profile"
-                  src="/users/default.jpg"
-                  placeholder="/users/default.jpg"
+                  :src="`/users/240x240/${user.slug}.jpg`"
+                  :placeholder="`/users/240x240/${user.slug}.jpg`"
                   :blur="30"
                   :aspect-ratio="1"
                   :alt="`عکس پروفایل ${user.name}`"
@@ -44,7 +44,9 @@
                 {{ user.name }}
               </h2>
               <div class="flex justify-between font-light" dir="rtl">
-                <div class="text-gray-400">{{ user.book_count }} کتاب</div>
+                <div class="text-gray-400">
+                  {{ $toFarsiNumber(user.book_count) }} کتاب
+                </div>
               </div>
             </div>
           </div>
@@ -61,7 +63,7 @@
 
 <script>
 export default {
-  async asyncData({ $content, params }) {
+  async asyncData({ $content, params, $toFarsiNumber }) {
     const users = await $content('users')
       .sortBy('order')
       .fetch()

@@ -1,1 +1,0 @@
-window.__NUXT__={staticAssetsBase:"\u002F_nuxt\u002Fstatic\u002F1605397539",layout:"default",error:null,serverRendered:true,routePath:"\u002Fسعدی\u002Fگلستان-سعدی\u002Fدیباچه\u002F1",config:{appLocale:"fa",baseUrl:"http:\u002F\u002Flocalhost:3000",content:{dbHash:"86ba2547"}}};

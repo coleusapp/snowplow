@@ -1,0 +1,1 @@
+window.__NUXT__={staticAssetsBase:"\u002F_nuxt\u002Fstatic\u002F1605398018",layout:"default",error:null,serverRendered:true,routePath:"\u002Fمحمداقبال\u002Fپس-چه-باید-کرد؟\u002Fپس-چه-باید-کرد؟\u002F1",config:{appLocale:"fa",baseUrl:"http:\u002F\u002Flocalhost:3000",content:{dbHash:"a343c67c"}}};

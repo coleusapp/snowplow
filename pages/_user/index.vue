@@ -9,8 +9,8 @@
           <client-only>
             <progressive-img
               class="profile-page-image"
-              src="/users/default.jpg"
-              placeholder="/users/default.jpg"
+              :src="`/users/240x240/${user.slug}.jpg`"
+              :placeholder="`/users/4x4/${user.slug}.jpg`"
               :blur="30"
               :aspect-ratio="1"
             />

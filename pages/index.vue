@@ -18,7 +18,7 @@
           typeof="Person"
         >
           <div
-            class="bg-white border border-gray-300 flex flex-wrap items-center shadow rounded"
+            class="bg-white border border-gray-300 flex flex-wrap items-center shadow rounded-lg"
           >
             <div class="w-1/4 -mb-2 p-2">
               <img
@@ -32,7 +32,7 @@
                 <progressive-img
                   class="home-profile"
                   :src="`/users/240x240/${user.slug}.jpg`"
-                  :placeholder="`/users/240x240/${user.slug}.jpg`"
+                  :placeholder="`/users/4x4/${user.slug}.jpg`"
                   :blur="30"
                   :aspect-ratio="1"
                   :alt="`عکس پروفایل ${user.name}`"

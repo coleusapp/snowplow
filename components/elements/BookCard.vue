@@ -26,8 +26,8 @@
     <client-only>
       <progressive-img
         itemprop="image"
-        src="/books/default.jpg"
-        placeholder="/books/default.jpg"
+        :src="`/books/240x384/${user.slug}-${book.slug}.jpg`"
+        :placeholder="`/books/5x8/${user.slug}-${book.slug}.jpg`"
         :blur="30"
         :aspect-ratio="1.5"
         class="book-cover"
